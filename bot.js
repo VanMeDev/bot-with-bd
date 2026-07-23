@@ -2,7 +2,7 @@ const TelegramBot = require('node-telegram-bot-api');
 const sqlite3 = require('sqlite3').verbose();
 
 // Токен вашего бота
-const token = '7154361662:AAGn2AysSz0m_SJJYQuA_GOsfuRRs7C-mIk';
+const token = '';
 
 // Создаем экземпляр бота
 const bot = new TelegramBot(token, {polling: true});
